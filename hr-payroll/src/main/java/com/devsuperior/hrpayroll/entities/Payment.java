@@ -48,5 +48,9 @@ public class Payment implements  Serializable{
 		return days * dailyIncome;
 		
 	}
+	
+	public String getMsg() {
+		return "Olá " + this.name;
+	}
 
 }
